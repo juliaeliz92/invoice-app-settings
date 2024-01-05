@@ -95,3 +95,27 @@ Evaluation of your submission will be based on the following criteria.
 1. The submission met all the technical requirements
 1. The various parts of the application and their usage are easily identifiable to the reviewer
 1. The code can easily be repurposed, reused and expanded upon
+
+## Instructions to run the repo on your local machine from GitHub
+
+1. Clone the repo using `git clone https://github.com/juliaeliz92/invoice-app-settings` command
+2. Run `npm install` to install all the necessary npm packages. Make you have the latest node version on your machine
+3. Run `npm start` to start the code. Visual code is recommended IDE to edit and run the code.
+
+## Instructions to run the repo using Git bundle
+
+1. Clone the bundle using `git clone my_repo.bundle my_repo` command
+2. Run `npm install` to install all the necessary npm packages. Make you have the latest node version on your machine
+3. Run `npm start` to start the code. Visual code is recommended IDE to edit and run the code.
+
+## Code Explanation
+
+There are 2 pages in total: Settings page where customer list is displayed and an edit form page. Settings page is the default/homepage for this project at the time. Edit form is redirected when clicking on a customer list row and the form is filled with the corresponding customer data which is available for editing. Name and email are required and additionally, postal code is validated according to the standard format. On submission, the modified data is displayed in an alert.
+
+## What am I proud of?
+
+Even at my last company, the developers used the old version of React (v16) in the codebase which gave me limited opportunities to update my knowledge on the new React version. For the past month, I have been studying and practicing on new feature of React 18. This challenge is an opportunity to put my knowledge to the test and I am proud that I was able to get through it.
+
+Moreover, I got the chance to develop a repo from scratch and implement practices like choosing new folder structures, configuring and implementing lint rules, and designing the whole web app all of which I have the pleasure to talk about. 
+
+Finally, I am proud that I was able to set up a somewhat bigger module of an imaginary system all by myself. I thank the wave team for giving me an opportunity to showcase my skills and expertise. 
