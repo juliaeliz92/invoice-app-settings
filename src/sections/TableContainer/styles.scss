@@ -1,0 +1,8 @@
+@use './../../styles/variables' as var;
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+}

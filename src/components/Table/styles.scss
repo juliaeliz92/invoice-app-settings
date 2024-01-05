@@ -1,0 +1,29 @@
+@use './../../styles/variables' as var;
+
+table {
+    padding: 0 25px;
+    border: 1px solid var.$black;
+    border-collapse: collapse;
+    width: 100%;
+
+    thead tr {
+        background: var.$primary-color;
+    }
+
+    tr {
+        background-color: var.$menu-bg-color;
+    }
+
+    tr:hover {
+        background: var.$hover-color;
+    }
+
+    th,
+    td {
+        padding: 10px 15px;
+    }
+
+    td {
+        text-align: center;
+    }
+}
